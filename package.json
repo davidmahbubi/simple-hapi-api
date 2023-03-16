@@ -1,0 +1,19 @@
+{
+  "name": "belajar-hapi-david",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
+  },
+  "author": "David Mahbubi",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
